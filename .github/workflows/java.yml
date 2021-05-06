@@ -20,7 +20,7 @@ jobs:
           mvn clean verify
           java -jar target/benchmarks.jar -wi 1 -i 3 -f 1 -rf json
       - name: Store benchmark result
-        uses: rhysd/github-action-benchmark@v1
+        uses: michaelmior/github-action-benchmark@a9f865bb2b2b3d78c2c72a146bf0cec2f96b32dd
         with:
           name: JMH Benchmark
           tool: 'jmh'
