@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1620342765842,
+  "lastUpdate": 1620342769781,
   "entries": {
     "Rust Benchmark": [
       {
@@ -27251,6 +27251,42 @@ window.BENCHMARK_DATA = {
             "value": 30205.047635944487,
             "unit": "ns/iter",
             "extra": "iterations: 22546\ncpu: 30205.18508826399 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mmior@cs.rit.edu",
+            "name": "Michael Mior",
+            "username": "michaelmior"
+          },
+          "committer": {
+            "email": "mmior@cs.rit.edu",
+            "name": "Michael Mior",
+            "username": "michaelmior"
+          },
+          "distinct": true,
+          "id": "5062b7e703afdd945c28d1c8267c14f747150dc0",
+          "message": "Test benchmark storage with current action",
+          "timestamp": "2021-05-06T19:12:10-04:00",
+          "tree_id": "7f8063dbae342bb960b1c735b6337f4408d5e4e5",
+          "url": "https://github.com/michaelmior/github-action-benchmark/commit/5062b7e703afdd945c28d1c8267c14f747150dc0"
+        },
+        "date": 1620342765136,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "fib_10",
+            "value": 209.94557089295336,
+            "unit": "ns/iter",
+            "extra": "iterations: 3314991\ncpu: 209.94122698975653 ns\nthreads: 1"
+          },
+          {
+            "name": "fib_20",
+            "value": 28385.40923694797,
+            "unit": "ns/iter",
+            "extra": "iterations: 24900\ncpu: 28385.160281124507 ns\nthreads: 1"
           }
         ]
       }
