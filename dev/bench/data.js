@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1620342699343,
+  "lastUpdate": 1620342762123,
   "entries": {
     "Rust Benchmark": [
       {
@@ -23717,6 +23717,44 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000005437059765543098",
             "extra": "mean: 2.801498707042132 msec\nrounds: 355"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mmior@cs.rit.edu",
+            "name": "Michael Mior",
+            "username": "michaelmior"
+          },
+          "committer": {
+            "email": "mmior@cs.rit.edu",
+            "name": "Michael Mior",
+            "username": "michaelmior"
+          },
+          "distinct": true,
+          "id": "5062b7e703afdd945c28d1c8267c14f747150dc0",
+          "message": "Test benchmark storage with current action",
+          "timestamp": "2021-05-06T19:12:10-04:00",
+          "tree_id": "7f8063dbae342bb960b1c735b6337f4408d5e4e5",
+          "url": "https://github.com/michaelmior/github-action-benchmark/commit/5062b7e703afdd945c28d1c8267c14f747150dc0"
+        },
+        "date": 1620342760201,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "bench.py::test_fib_10",
+            "value": 44864.85836650116,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00003128901701965456",
+            "extra": "mean: 22.28915985493584 usec\nrounds: 35845"
+          },
+          {
+            "name": "bench.py::test_fib_20",
+            "value": 364.53444074622917,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000495553916788828",
+            "extra": "mean: 2.7432250240962843 msec\nrounds: 332"
           }
         ]
       }
