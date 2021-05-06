@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1620342237457,
+  "lastUpdate": 1620342240072,
   "entries": {
     "Rust Benchmark": [
       {
@@ -26539,6 +26539,42 @@ window.BENCHMARK_DATA = {
             "value": 28959.984640966413,
             "unit": "ns/iter",
             "extra": "iterations: 22853\ncpu: 28956.09176038157 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mmior@cs.rit.edu",
+            "name": "Michael Mior",
+            "username": "michaelmior"
+          },
+          "committer": {
+            "email": "mmior@cs.rit.edu",
+            "name": "Michael Mior",
+            "username": "michaelmior"
+          },
+          "distinct": true,
+          "id": "8faf6f276813d4898f981f85999424e834511a6b",
+          "message": "Add support for Java via JMH",
+          "timestamp": "2021-05-06T19:03:24-04:00",
+          "tree_id": "9ed2d9ab93aedf5931810dda354e5eb8549d3b98",
+          "url": "https://github.com/michaelmior/github-action-benchmark/commit/8faf6f276813d4898f981f85999424e834511a6b"
+        },
+        "date": 1620342238514,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "fib_10",
+            "value": 213.39598942163968,
+            "unit": "ns/iter",
+            "extra": "iterations: 3261375\ncpu: 213.3478278333525 ns\nthreads: 1"
+          },
+          {
+            "name": "fib_20",
+            "value": 28067.1482142132,
+            "unit": "ns/iter",
+            "extra": "iterations: 24667\ncpu: 28066.61661328901 ns\nthreads: 1"
           }
         ]
       }
