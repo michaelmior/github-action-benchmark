@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1620342691948,
+  "lastUpdate": 1620342699343,
   "entries": {
     "Rust Benchmark": [
       {
@@ -28733,6 +28733,44 @@ window.BENCHMARK_DATA = {
             "name": "Fibonacci 20",
             "value": 27.516,
             "range": "± 9.845",
+            "unit": "us",
+            "extra": "100 samples\n2 iterations"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mmior@cs.rit.edu",
+            "name": "Michael Mior",
+            "username": "michaelmior"
+          },
+          "committer": {
+            "email": "mmior@cs.rit.edu",
+            "name": "Michael Mior",
+            "username": "michaelmior"
+          },
+          "distinct": true,
+          "id": "43a586dc3c51a144e88e32117ca0b34abdaf290f",
+          "message": "Test benchmark storage with current action",
+          "timestamp": "2021-05-06T19:10:45-04:00",
+          "tree_id": "219db60926e64d744783e61b6a0fef7e7ff9aaa0",
+          "url": "https://github.com/michaelmior/github-action-benchmark/commit/43a586dc3c51a144e88e32117ca0b34abdaf290f"
+        },
+        "date": 1620342697473,
+        "tool": "catch2",
+        "benches": [
+          {
+            "name": "Fibonacci 10",
+            "value": 193,
+            "range": "± 22",
+            "unit": "ns",
+            "extra": "100 samples\n159 iterations"
+          },
+          {
+            "name": "Fibonacci 20",
+            "value": 27.226,
+            "range": "± 4.269",
             "unit": "us",
             "extra": "100 samples\n2 iterations"
           }
