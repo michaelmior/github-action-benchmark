@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1591796792063,
+  "lastUpdate": 1620335678296,
   "entries": {
     "Rust Benchmark": [
       {
@@ -12027,6 +12027,42 @@ window.BENCHMARK_DATA = {
           {
             "name": "BenchmarkFib20",
             "value": 51307,
+            "unit": "ns/op",
+            "extra": "30000 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mmior@cs.rit.edu",
+            "name": "Michael Mior",
+            "username": "michaelmior"
+          },
+          "committer": {
+            "email": "mmior@cs.rit.edu",
+            "name": "Michael Mior",
+            "username": "michaelmior"
+          },
+          "distinct": true,
+          "id": "30ae1deb4c77082155134374a0598f12d625f4f2",
+          "message": "Add support for Java via JMH",
+          "timestamp": "2021-05-06T17:13:30-04:00",
+          "tree_id": "c3a6c5f7c184276d25de5d2ca6827dd73427438c",
+          "url": "https://github.com/michaelmior/github-action-benchmark/commit/30ae1deb4c77082155134374a0598f12d625f4f2"
+        },
+        "date": 1620335676475,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkFib10",
+            "value": 456,
+            "unit": "ns/op",
+            "extra": "3000000 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkFib20",
+            "value": 57130,
             "unit": "ns/op",
             "extra": "30000 times\n2 procs"
           }
@@ -27428,5 +27464,5 @@ window.BENCHMARK_DATA = {
       }
     ]
   },
-  "repoUrl": "https://github.com/rhysd/github-action-benchmark"
+  "repoUrl": "https://github.com/michaelmior/github-action-benchmark"
 }
