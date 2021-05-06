@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1620342270964,
+  "lastUpdate": 1620342450900,
   "entries": {
     "Rust Benchmark": [
       {
@@ -6442,6 +6442,66 @@ window.BENCHMARK_DATA = {
             "name": "bench_fib_20",
             "value": 37460,
             "range": "± 8288",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mmior@cs.rit.edu",
+            "name": "Michael Mior",
+            "username": "michaelmior"
+          },
+          "committer": {
+            "email": "mmior@cs.rit.edu",
+            "name": "Michael Mior",
+            "username": "michaelmior"
+          },
+          "distinct": true,
+          "id": "8faf6f276813d4898f981f85999424e834511a6b",
+          "message": "Add support for Java via JMH",
+          "timestamp": "2021-05-06T19:03:24-04:00",
+          "tree_id": "9ed2d9ab93aedf5931810dda354e5eb8549d3b98",
+          "url": "https://github.com/michaelmior/github-action-benchmark/commit/8faf6f276813d4898f981f85999424e834511a6b"
+        },
+        "date": 1620342449474,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "BenchFib10",
+            "value": 220,
+            "range": "± 8",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "BenchFib20",
+            "value": 29720,
+            "range": "± 584",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Recursive/20",
+            "value": 30113,
+            "range": "± 1296",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Iterative/20",
+            "value": 6,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Recursive/21",
+            "value": 47803,
+            "range": "± 137",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Iterative/21",
+            "value": 7,
+            "range": "± 0",
             "unit": "ns/iter"
           }
         ]
