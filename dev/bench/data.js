@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1620342257899,
+  "lastUpdate": 1620342270964,
   "entries": {
     "Rust Benchmark": [
       {
@@ -6406,6 +6406,42 @@ window.BENCHMARK_DATA = {
             "name": "Fibonacci/Iterative/21",
             "value": 6,
             "range": "± 0",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mmior@cs.rit.edu",
+            "name": "Michael Mior",
+            "username": "michaelmior"
+          },
+          "committer": {
+            "email": "mmior@cs.rit.edu",
+            "name": "Michael Mior",
+            "username": "michaelmior"
+          },
+          "distinct": true,
+          "id": "8faf6f276813d4898f981f85999424e834511a6b",
+          "message": "Add support for Java via JMH",
+          "timestamp": "2021-05-06T19:03:24-04:00",
+          "tree_id": "9ed2d9ab93aedf5931810dda354e5eb8549d3b98",
+          "url": "https://github.com/michaelmior/github-action-benchmark/commit/8faf6f276813d4898f981f85999424e834511a6b"
+        },
+        "date": 1620342269353,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "bench_fib_10",
+            "value": 279,
+            "range": "± 44",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bench_fib_20",
+            "value": 37460,
+            "range": "± 8288",
             "unit": "ns/iter"
           }
         ]
