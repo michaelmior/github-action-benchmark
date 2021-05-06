@@ -220,6 +220,17 @@ describe('extractResult()', function() {
                 },
             ],
         },
+        {
+            tool: 'jmh',
+            expected: [
+                {
+                    extra: 'iterations: 3\nforks: 1\nthreads: 1',
+                    name: 'Benchmark.test',
+                    unit: 'ops/s',
+                    value: 0.02351677691993219,
+                },
+            ],
+        },
     ];
 
     for (const test of normalCases) {
@@ -269,7 +280,7 @@ describe('extractResult()', function() {
         file: string;
         expected: RegExp;
     }> = [
-        ...(['pytest', 'googlecpp'] as const).map(tool => ({
+        ...(['pytest', 'googlecpp', 'jmh'] as const).map(tool => ({
             it: `raises an error when output file is not in JSON with tool '${tool}'`,
             tool,
             file: 'go_output.txt',
