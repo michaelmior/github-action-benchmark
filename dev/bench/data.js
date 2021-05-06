@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1620342898833,
+  "lastUpdate": 1620343003317,
   "entries": {
     "Rust Benchmark": [
       {
@@ -6724,6 +6724,66 @@ window.BENCHMARK_DATA = {
             "name": "Fibonacci/Recursive/21",
             "value": 45253,
             "range": "± 1831",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Iterative/21",
+            "value": 6,
+            "range": "± 0",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mmior@cs.rit.edu",
+            "name": "Michael Mior",
+            "username": "michaelmior"
+          },
+          "committer": {
+            "email": "mmior@cs.rit.edu",
+            "name": "Michael Mior",
+            "username": "michaelmior"
+          },
+          "distinct": true,
+          "id": "5062b7e703afdd945c28d1c8267c14f747150dc0",
+          "message": "Test benchmark storage with current action",
+          "timestamp": "2021-05-06T19:12:10-04:00",
+          "tree_id": "7f8063dbae342bb960b1c735b6337f4408d5e4e5",
+          "url": "https://github.com/michaelmior/github-action-benchmark/commit/5062b7e703afdd945c28d1c8267c14f747150dc0"
+        },
+        "date": 1620343000185,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "BenchFib10",
+            "value": 234,
+            "range": "± 29",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "BenchFib20",
+            "value": 30680,
+            "range": "± 1845",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Recursive/20",
+            "value": 30858,
+            "range": "± 2552",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Iterative/20",
+            "value": 6,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "Fibonacci/Recursive/21",
+            "value": 49703,
+            "range": "± 2044",
             "unit": "ns/iter"
           },
           {
