@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1620342682745,
+  "lastUpdate": 1620342685775,
   "entries": {
     "Rust Benchmark": [
       {
@@ -18853,6 +18853,44 @@ window.BENCHMARK_DATA = {
             "range": "±1.01%",
             "unit": "ops/sec",
             "extra": "95 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mmior@cs.rit.edu",
+            "name": "Michael Mior",
+            "username": "michaelmior"
+          },
+          "committer": {
+            "email": "mmior@cs.rit.edu",
+            "name": "Michael Mior",
+            "username": "michaelmior"
+          },
+          "distinct": true,
+          "id": "43a586dc3c51a144e88e32117ca0b34abdaf290f",
+          "message": "Test benchmark storage with current action",
+          "timestamp": "2021-05-06T19:10:45-04:00",
+          "tree_id": "219db60926e64d744783e61b6a0fef7e7ff9aaa0",
+          "url": "https://github.com/michaelmior/github-action-benchmark/commit/43a586dc3c51a144e88e32117ca0b34abdaf290f"
+        },
+        "date": 1620342679600,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "fib(10)",
+            "value": 1033453,
+            "range": "±0.88%",
+            "unit": "ops/sec",
+            "extra": "82 samples"
+          },
+          {
+            "name": "fib(20)",
+            "value": 8704,
+            "range": "±1.15%",
+            "unit": "ops/sec",
+            "extra": "85 samples"
           }
         ]
       }
