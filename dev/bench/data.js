@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1620342685775,
+  "lastUpdate": 1620342691948,
   "entries": {
     "Rust Benchmark": [
       {
@@ -6598,6 +6598,42 @@ window.BENCHMARK_DATA = {
             "name": "Fibonacci/Iterative/21",
             "value": 6,
             "range": "± 0",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mmior@cs.rit.edu",
+            "name": "Michael Mior",
+            "username": "michaelmior"
+          },
+          "committer": {
+            "email": "mmior@cs.rit.edu",
+            "name": "Michael Mior",
+            "username": "michaelmior"
+          },
+          "distinct": true,
+          "id": "43a586dc3c51a144e88e32117ca0b34abdaf290f",
+          "message": "Test benchmark storage with current action",
+          "timestamp": "2021-05-06T19:10:45-04:00",
+          "tree_id": "219db60926e64d744783e61b6a0fef7e7ff9aaa0",
+          "url": "https://github.com/michaelmior/github-action-benchmark/commit/43a586dc3c51a144e88e32117ca0b34abdaf290f"
+        },
+        "date": 1620342690155,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "bench_fib_10",
+            "value": 200,
+            "range": "± 44",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bench_fib_20",
+            "value": 26763,
+            "range": "± 5360",
             "unit": "ns/iter"
           }
         ]
